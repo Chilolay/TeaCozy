@@ -1,0 +1,136 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.logo{
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    justify-content: left;
+    display: inline-block;
+    width: auto;
+    margin-right: auto;
+}
+
+header{
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    text-decoration: underline;
+    color: white;
+}
+
+nav ul a{
+    margin: 0px;
+    height:100%;
+    padding-right: 20px;
+    color: white;
+}
+
+a:hover {
+    color: rgb(136, 163, 189);
+}
+
+.mission{
+    background-image: url(images/img-mission-background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 90%;
+    display: flex;
+}
+
+.title{
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h2,h4{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.monthlyTea{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+    gap: 20px 20px;
+}
+
+.imageSpecs{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+figure{
+    margin:0px;
+}
+
+.locationHeader{
+    margin-bottom: 15px;
+
+}
+
+.locationContainer{
+    background-image: url(images/img-locations-background.jpg);
+    background-size: cover;
+    height: 500px;
+    max-width: 54.54rem;
+    margin: 50px auto;
+    padding-top: 3.136363636362rem;
+}
+
+.locationCard{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+}
+
+.locations{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact{
+    height: 200px;
+    flex-direction: column;
+    align-content: center;
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+}
